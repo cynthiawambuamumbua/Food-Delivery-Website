@@ -2,6 +2,7 @@
     text-align: center;
     margin-top: 50px;
     margin-left: 7%;
+    background-color: rgb(253, 239, 233);
   }
   .page p {
     color: red;
@@ -34,7 +35,9 @@
     padding: 10px 20px;
     border: none;
     cursor: pointer;
-    border-radius: 6%;
+    border-radius: 8%;
+    width: 11%;
+    height: 5vh;
   }
   .paragraph p {
     color: black;
@@ -85,4 +88,44 @@
   justify-content: space-between;
   align-items: center;
   gap: 20px; 
+}
+@media (max-width: 768px) {
+  .page p {
+    font-size: 36px; 
+    margin-right: 0; 
+  }
+  .body {
+    font-size: 110%;
+    margin-right: 0;
+  }
+  .image {
+    width: 150px;
+    margin-left: 0; 
+  }
+  .paragraph {
+    font-size: 130%;
+    margin-right: 0; 
+  }
+  .btn2 {
+    width: 15%;
+    height: 6vh; 
+  }
+  .play {
+    margin-left: 0;
+  }
+  .orders {
+    flex-direction: column;
+    gap: 10px;
+  }
+  .delivery,
+  .food,
+  .free {
+    padding: 10px;
+    text-align: center;
+    margin: 10px;
+    border: none;
+  }
+  .content {
+    flex-direction: column;
+  }
 }

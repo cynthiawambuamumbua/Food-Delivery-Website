@@ -38,3 +38,30 @@
 .ordern svg {
     margin-left: 6px;
 }
+@media (max-width: 768px) {
+  .chicken {
+    flex-direction: column;
+    align-items: center;
+    margin-left: 0;
+  }
+  .burger img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    margin-bottom: 5px;
+  }
+  .burger h9 {
+    font-size: 16px;
+    margin-bottom: 3px;
+  }
+  .ordern svg {
+    margin-left: 3px;
+  }
+  .burg {
+    font-size: 140%;
+  }
+  .burger {
+    text-align: center;
+    padding: 10px;
+  }
+}

@@ -5,9 +5,6 @@ import { faStar } from '@fortawesome/free-solid-svg-icons';
 import ChickenBurger2 from './chickenBurger2.jpeg'
 import ChickenPizza2 from './chickenPizza2.jpeg'
 import ChickenFry from './chickenFry.jpeg'
-import GrillSandwich from './humberger3.png'
-import TacoTraifi from './humberger1.png'
-import NoddlesRamen from './humberger2.png'
 import hamb from './hamb.png'
 import hamb2 from './hamb2.png'
 import hamb3 from './hamb3.png'
@@ -31,51 +28,64 @@ const Menu=()=>{
 <div class="chicken-products">
     <div class="chickn-products2">
         <img class="burger-image" src={ChickenBurger2} alt="Chicken Burger2" />
+        <div className="mw">
         <p class="burger">Chicken Burger</p>
         <div class="pp">
             <FontAwesomeIcon icon={faStar} /><FontAwesomeIcon icon={faStar} /><FontAwesomeIcon icon={faStar} /><FontAwesomeIcon icon={faStar} /><FontAwesomeIcon icon={faStar} />(112)
         </div>
         <p class="black">$3.50</p><button class="btn1">Buy Now</button>
+        </div>
     </div>
     <div class="chickn-products2">
         <img class="burger-image1" src={ChickenPizza2} alt="Chicken Pizza" />
+        <div className="mw">
         <p class="burger">Chicken Pizza</p>
         <div class="pp">
             <FontAwesomeIcon icon={faStar} /><FontAwesomeIcon icon={faStar} /><FontAwesomeIcon icon={faStar} /><FontAwesomeIcon icon={faStar} /><FontAwesomeIcon icon={faStar} />(112)
         </div>
         <p class="black">$4.20</p><button class="btn1">Buy Now</button>
+        </div>
     </div>
     <div class="chickn-products2">
         <img class="burger-image" src={ChickenFry} alt="Chicken Fry" />
+        <div className="mw">
         <p class="burger">Chicken Fry</p>
         <div class="pp">
             <FontAwesomeIcon icon={faStar} /><FontAwesomeIcon icon={faStar} /><FontAwesomeIcon icon={faStar} /><FontAwesomeIcon icon={faStar} /><FontAwesomeIcon icon={faStar} />(112)
         </div>
         <p class="black">$5.00</p>
 <button class="btn1">Buy Now</button>
+</div>
     </div>
 </div>
                      <div className="chicken-products">
                         <div className="chickn-products2">
                     <img className="burger-image" src={ChickenBurger2} alt="Chicken Burger2" />
+                    <div className="mw">
                         <p className="burger">Chicken Burger</p>
                         <div className="pp">
                     <FontAwesomeIcon icon={faStar} /><FontAwesomeIcon icon={faStar} /><FontAwesomeIcon icon={faStar} /><FontAwesomeIcon icon={faStar} /><FontAwesomeIcon icon={faStar} />(112)
                     </div>                    <p className="black">$3.50</p>  <button className="btn1">Buy Now</button> 
                     </div>
+                    </div>
                     <div className="chickn-products2">
                     <img className="burger-image1" src={ChickenPizza2} alt="Chicken Pizza" />
+                    <div className="mw">
                         <p className="burger">Chicken Pizza</p>
                         <div className="pp">
                     <FontAwesomeIcon icon={faStar} /><FontAwesomeIcon icon={faStar} /><FontAwesomeIcon icon={faStar} /><FontAwesomeIcon icon={faStar} /><FontAwesomeIcon icon={faStar} />(112)
                     </div>                    <p className="black">$4.20</p>  <button className="btn1">Buy Now</button> 
                     </div>
+                    </div>
                     <div className="chickn-products2">
                     <img className="burger-image" src={ChickenFry} alt="Chicken Fry" />
+                    <div className="mw">
                         <p className="burger">Chicken Fry</p>
                         <div className="pp">
                     <FontAwesomeIcon icon={faStar} /><FontAwesomeIcon icon={faStar} /><FontAwesomeIcon icon={faStar} /><FontAwesomeIcon icon={faStar} /><FontAwesomeIcon icon={faStar} />(112)
-                    </div>                    <p className="black">$5.00</p>  <button className="btn1">Buy Now</button> 
+                    </div>                    
+                    <p className="black">$5.00</p>  <button className="btn1">Buy Now</button> 
+                    </div>
                     </div>
                     </div>
                     <div className="image-container"> 
